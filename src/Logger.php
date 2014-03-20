@@ -15,5 +15,6 @@ class Logger
     public function log($string, $fgColor = null, $bgColor = null)
     {
         print $this->colors->getColoredString($string, $fgColor, $bgColor);
+        print PHP_EOL;
     }
 }
